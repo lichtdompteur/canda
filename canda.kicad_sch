@@ -5216,13 +5216,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.6924 3.6322 0)
+			(property "Reference" "Q2"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "DMG2305UX-13"
@@ -5352,12 +5351,76 @@
 					(hide yes)
 				)
 			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field13" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "JLCPCB ID" "C144153"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "JCLPCB ID" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "DMG2305UX-13DICT-ND"
@@ -5590,7 +5653,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -5608,7 +5671,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -15557,6 +15620,12 @@
 		(instances
 			(project "AAAS"
 				(path "/3bfd00d1-0ae7-4bfd-be4f-99fe6e23c2a7/8558a917-f9d7-4a96-a405-7f8602731796"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9ae35c43-2fcb-42e1-b6b9-3179052a5e90"
 					(reference "Q2")
 					(unit 1)
 				)
