@@ -3240,7 +3240,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2s_connectors:screw_terminal_5.00mm"
+		(symbol "2s_connectors:Screw Terminal 5.00mm"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3256,7 +3256,7 @@
 					)
 				)
 			)
-			(property "Value" "screw_terminal_5.00mm"
+			(property "Value" "Screw Terminal Block 5.00 mm 2 pol"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3264,7 +3264,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal"
+			(property "Footprint" "2s_connectors:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3336,7 +3336,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "screw_terminal_5.00mm_1_1"
+			(symbol "Screw Terminal 5.00mm_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -11624,7 +11624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2s_connectors:screw_terminal_5.00mm")
+		(lib_id "2s_connectors:Screw Terminal 5.00mm")
 		(at 50.8 250.19 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11648,7 +11648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "2s_connectors:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 50.8 250.19 0)
 			(effects
 				(font
@@ -12488,7 +12488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2s_connectors:screw_terminal_5.00mm")
+		(lib_id "2s_connectors:Screw Terminal 5.00mm")
 		(at 48.26 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12512,7 +12512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "2s_connectors:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 48.26 43.18 0)
 			(effects
 				(font
