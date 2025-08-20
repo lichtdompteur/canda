@@ -35,5 +35,11 @@ jobs:
     - name: Retrieve results
       uses: actions/upload-artifact@v4
       with:
-        name: Automatic_outputs
+        # get name of the repository and use it for the artifact name
+        name: Automatic_outputs_${{ github.event.repository.name }}
         path: Generated
+    - name: Upload Schematics alone
+      uses: actions/upload-artifact@v4
+      with:
+        name: Schematics_${{ github.event.repository.name }}
+        path: Generated/*schematic.pdf
