@@ -30,7 +30,7 @@ jobs:
 
     - name: Quick Start
       run: |
-        kibot --quick-start
+        kibot -c kibot.yaml
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
