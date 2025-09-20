@@ -227,32 +227,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1308100|1676400|e336a103-046f-49d7-9977-294195fa9c0f|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|3543300|1447800|bcb87502-c304-4bf3-98b7-1d0b2f5d7cd8|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|508000|2501900|15e8e589-5650-454e-909f-bce346a04f74|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|927100|1676400|274e008b-a7c3-49cd-be7c-1c1340344fae|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|927100|1676400|816576c3-0d10-40ba-971c-af8e04b5681c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_to_pin|558800|2501900|b5b33657-b95e-4b2f-9b75-62f32f4c2500|9d581248-3be8-4623-9069-cb5e20a2fb95|/9ae35c43-2fcb-42e1-b6b9-3179052a5e90|/9ae35c43-2fcb-42e1-b6b9-3179052a5e90|/9ae35c43-2fcb-42e1-b6b9-3179052a5e90",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -438,7 +413,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -517,7 +492,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "canda.step",
       "svg": "",
       "vrml": ""
     },
