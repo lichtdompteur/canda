@@ -326,7 +326,7 @@ outputs:
     suffix: F_Fab
     description: Front documentation
   options:
-    max_commits: 4
+    max_commits: 3
 - name: basic_navigate_results_rb
   comment: Web page to browse the results
   type: navigate_results_rb
@@ -416,75 +416,6 @@ outputs:
       - layer: Edge.Cuts
         color: '#000000'
     keep_temporal_files: true
-- name: basic_pcb_print_svg
-  comment: PCB
-  type: pcb_print
-  dir: PCB/SVG
-  options:
-    format: SVG
-    pages:
-    - layers:
-      - layer: F.Cu
-      - layer: F.Mask
-        color: '#14332440'
-      - layer: F.Paste
-      - layer: F.Silkscreen
-      - layer: Edge.Cuts
-      - layer: User.Comments
-      - layer: User.2
-      - layer: User.4
-      - layer: User.6
-      - layer: User.8
-      sheet: Front copper
-    - layers:
-      - layer: F.Mask
-        color: '#14332440'
-      - layer: Edge.Cuts
-      - layer: User.Comments
-      - layer: User.2
-      - layer: User.4
-      - layer: User.6
-      - layer: User.8
-      sheet: Front soldermask (negative)
-    - layers:
-      - layer: B.Cu
-      - layer: B.Mask
-        color: '#14332440'
-      - layer: Edge.Cuts
-      - layer: User.Comments
-      - layer: User.2
-      - layer: User.4
-      - layer: User.6
-      - layer: User.8
-      mirror: true
-      sheet: Bottom copper
-    - layers:
-      - layer: F.Courtyard
-      - layer: Edge.Cuts
-      - layer: User.Comments
-      - layer: User.2
-      - layer: User.4
-      - layer: User.6
-      - layer: User.8
-      sheet: Front courtyard area
-    - layers:
-      - layer: F.Fab
-      - layer: Edge.Cuts
-      - layer: User.Comments
-      - layer: User.2
-      - layer: User.4
-      - layer: User.6
-      - layer: User.8
-      sheet: Front documentation
-    - repeat_for_layer: User.Drawings
-      repeat_layers: drill_pairs
-      layers:
-      - layer: User.Drawings
-        color: '#000000'
-      - layer: Edge.Cuts
-        color: '#000000'
-    keep_temporal_files: true
-    add_background: true
 - name: basic_pcb_print_png
   comment: PCB
   type: pcb_print
