@@ -7,7 +7,7 @@ on:
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
-      - '.github/workflows/kibot_quick_start.yml'
+      - '.github/workflows/kibot.yml'
   repository_dispatch:
     types: [run_qs]
 
@@ -22,6 +22,7 @@ jobs:
       with:
         # So we can run a diff between last 2 changes
         fetch-depth: '0'
+  
 
     - name: Generate Fabrication files
       run: |
