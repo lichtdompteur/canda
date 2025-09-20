@@ -28,9 +28,12 @@ jobs:
         # So we can run a diff between last 2 changes
         fetch-depth: '0'
 
-    - name: Quick Start
+    - name: Generate Fabrication files
       run: |
-        kibot -c kibot.yaml
+        kibot -c kibot.yaml --verbose
+    - name: List Generated files
+      run: |
+        ls --al
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
