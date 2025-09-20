@@ -3659,8 +3659,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D1"
+				(at -0.3175 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3668,7 +3668,7 @@
 				)
 			)
 			(property "Value" "MBR0520"
-				(at 0 -2.54 0)
+				(at -0.3175 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3786,7 +3786,7 @@
 				)
 			)
 			(symbol "MBR0520_1_1"
-				(pin passive line
+				(pin power_out line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
