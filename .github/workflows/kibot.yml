@@ -22,7 +22,10 @@ jobs:
       with:
         # So we can run a diff between last 2 changes
         fetch-depth: '0'
-  
+
+    - name: get git description
+      id: git_desc
+      run: echo "GIT_DESC=$(git describe --tags --always)" >> $GITHUB_ENV
 
     - name: Generate Fabrication files
       run: |
@@ -35,10 +38,10 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         # get name of the repository and use it for the artifact name
-        name: Automatic_outputs_${{ github.event.repository.name }}
+        name: ${{ github.event.repository.name }}-${{ env.GIT_DESC }}-full
         path: out/*
     - name: Upload Schematics alone
       uses: actions/upload-artifact@v4
       with:
-        name: Schematics_${{ github.event.repository.name }}
+        name: ${{ github.event.repository.name }}-${{ env.GIT_DESC }}-schematics
         path: out/Schematic/*schematic.pdf
