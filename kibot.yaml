@@ -9,7 +9,6 @@ global:
   - number: 1015
   - number: 58
   - number: 107
-  output: Generated
 
 import:
 - file: Elecrow

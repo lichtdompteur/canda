@@ -25,7 +25,7 @@ jobs:
 
     - name: Generate Fabrication files
       run: |
-        kibot -c kibot.yaml --verbose
+        kibot -c kibot.yaml --verbose --out-dir out
     - name: List Generated files
       run: |
         ls -al
