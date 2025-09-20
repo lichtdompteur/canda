@@ -28,16 +28,10 @@ jobs:
 
     - name: Quick Start
       run: |
-        kibot --quick-start
+        kibot --quick-start --dry
 
-    - name: Retrieve results
+    - name: Save Configuration file
       uses: actions/upload-artifact@v4
       with:
-        # get name of the repository and use it for the artifact name
-        name: Automatic_outputs_${{ github.event.repository.name }}
-        path: Generated
-    - name: Upload Schematics alone
-      uses: actions/upload-artifact@v4
-      with:
-        name: Schematics_${{ github.event.repository.name }}
-        path: Generated/Schematic/*schematic.pdf
+        name: Configuration File
+        path: example.kibot.yaml
