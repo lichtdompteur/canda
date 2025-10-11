@@ -17937,6 +17937,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "497-17666-2-ND"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32F103C8T6TR"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "37"
 			(uuid "7defb75e-6605-4ff3-a73c-b88bc55c4c70")
 		)
